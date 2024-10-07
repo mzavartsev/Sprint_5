@@ -1,0 +1,15 @@
+By.XPATH, ".//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg']" -
+кнопка "Личный кабинет"
+By.XPATH, ".//input[@class='text input__textfield text_type_main-default']" - поиск полей для логина
+By.XPATH, ".//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa']" -
+кнопка "Войти"
+By.XPATH, ".//a[@class='Auth_link__1fOlj']" - кнопка "Восстановить пароль"
+By.XPATH, ".//button[@class='Account_button__14Yp3 text text_type_main-medium text_color_inactive']" - кнопка "Выход"
+в личном кабинете
+By.XPATH, ".//h2[text()='Вход']" - текст "Вход"
+By.XPATH, ".//input[@class='text input__textfield text_type_main-default']" - поиск полей дляч регистрации
+By.XPATH, ".//p[@class='input__error text_type_main-default']" - поиск текста с ошибкой
+By.XPATH, ".//p[text()='Конструктор']" - переход в раздел "конструктор"
+By.XPATH, ".//div[@class='tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect']" - поиск неактивных секций в конструкторе
+By.XPATH, ".//h2[@class='text text_type_main-medium mb-6 mt-10']" - переход к заголовкам с булками/соусами/ингридиентами
+
