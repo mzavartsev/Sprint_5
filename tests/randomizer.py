@@ -1,14 +1,14 @@
 import random
 
 
-sp = ['a', 'b', 'c', 'd', 'e', 'f', 'A', 'B', 'C', 'D', 'E', 'F']
 def gen_email():
     random_numbers = random.randint(000, 999)
     email = f"maksimzavartsev14{random_numbers}@ya.ru"
     return email
+#поменять потом почту
 
 def gen_pass():
-    global sp
+    sp = ['a', 'b', 'c', 'd', 'e', 'f', 'A', 'B', 'C', 'D', 'E', 'F']
     passw = ""
     for k in range(3):
         r = "".join(random.choices(sp, k=3))
