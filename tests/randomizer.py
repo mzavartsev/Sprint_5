@@ -5,7 +5,6 @@ def gen_email():
     random_numbers = random.randint(000, 999)
     email = f"maksimzavartsev14{random_numbers}@ya.ru"
     return email
-#поменять потом почту
 
 def gen_pass():
     sp = ['a', 'b', 'c', 'd', 'e', 'f', 'A', 'B', 'C', 'D', 'E', 'F']
